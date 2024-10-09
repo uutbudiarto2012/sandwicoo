@@ -3,8 +3,8 @@ import HomeProduct from '@/components/products';
 import { Rupiah } from '@/lib/utils';
 import { useProductStore } from '@/stores/product';
 import Image from 'next/image';
-import { useParams } from 'next/navigation'
-import { useEffect, useState } from 'react';
+import { useParams } from 'next/navigation';
+import { useEffect } from 'react';
 import { BsWhatsapp } from 'react-icons/bs';
 
 const ProductDetail = () => {

@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect } from 'react'
-import ProductItem, { TProduct } from './ProductItem'
+import ProductItem from './ProductItem'
 import { useProductStore } from '@/stores/product'
 
 const HomeProduct = ({title,subtitle}:{title?:string,subtitle?:string}) => {
